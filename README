@@ -1,13 +1,8 @@
-JavaCanvas
- 
-This package is a set of developer utilities, implementing the HTML 5 Canvas
-standard in Java primarily by using the java.awt namespace,
-and supporting javax.script namespaces.
+===========================
+ JavaCanvas for Java SE 6+ 
+===========================
 
-Unless otherwise noted:
-        All source code and documentation is released into public domain and CC0.
-        http://creativecommons.org/publicdomain/zero/1.0/
-        http://creativecommons.org/licenses/publicdomain/
- 
-Should you have any questions about licensing or records, please consult with Jumis, Inc.
-w3canvas at jumis.com
+This project is based on 
+https://github.com/w3canvas/javacanvas
+
+It implements the 'HTML 5 Canvas' standard for the Java SE runtime. By using Mozilla Rhino, it's possible to execute JavaScript code like from the animation library TweenJS (http://www.createjs.com/#!/TweenJS) within a standard Java Desktop or Applet application.
